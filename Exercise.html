@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Card</title>
+
+    <style>
+      * {
+        /* background-color: rgb(11, 10, 10); */
+      }
+      body{
+        margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(22, 22, 22, 0.181);
+      }
+      .box {
+        /* border: 1px solid rgb(156, 156, 156); */
+        width: 20vw;
+        height: 55vh;
+        /* position: fixed; */
+        /* left: 27.5vw;
+        top: 22.5vh; */
+        background-color: white;
+        border-radius: 7.5px;
+        box-shadow: 0 0 5px;
+        padding-bottom: 15px;
+        /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  
+      }
+      .box1 {
+        /* border: 1px solid black; */
+        position: relative;
+        top: 8px;
+        left: 10px;
+        margin-right: 20px;
+        height: 155px;
+        background-image: url(https://www.pelago.com/img/products/VN-Vietnam/heritage-cruise-the-best-experience-2-days-1-night-on-halong-bay/0e3057dc-e991-4b98-be9c-d3a92c527593_heritage-cruise-the-best-experience-2-days-1-night-on-halong-bay-large.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 7.5px;
+        transition: transform 0.3s ease-in-out;
+      }
+      .box1:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+      .nav-item {
+        font-family: "Raleway", sans-serif;
+        transition: font-family 0.3s, color 0.3s;
+        border: 0.5px solid rgb(179, 174, 174);
+        border-radius: 5px;
+        position: relative;
+        left: 30px;
+        font-size: clamp(0.8rem, 1.5vw, 0.8rem);
+        color: rgb(50, 50, 50);
+      }
+
+      .nav-item:hover {
+        font-family: "Poppins", sans-serif;
+        color: blue; /* Optional: visual feedback */
+        cursor: pointer;
+      }
+      .back {
+        width: 27vw;
+        height: 62vh;
+        border: 1px solid grey;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+       
+        background-color: rgba(250, 255, 249, 0.914);
+      }
+      .title {
+        font-family: "Montserrat", Courier, monospace;
+        /* font-size: 1rem; */
+        font-size: clamp(0.5rem, 2vw, 0.8rem);
+        position: relative;
+        left: 6px;
+        font-weight: lighter;
+        color: rgb(26, 26, 26);
+        margin-bottom: 5px;
+        margin-top: 10px;
+      }
+      .tour-description {
+        font-family: "Roboto", sans-serif;
+        font-size: clamp(0.5rem, 2.5vw, 0.8rem);
+        color: #333;
+        padding: 10px 15px;
+        line-height: 1.6;
+        /* background-color: #f9f9f9; */
+        border-radius: 8px;
+        /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+        /* position: relative; */
+        margin-top: 0;
+      }
+      .button a {
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button a:hover {
+  background: #0056b3; /* Darker blue on hover */
+  color: #fff;
+  cursor: pointer;
+}
+.button {
+  text-align: center;
+  /* margin-top: 10px; */
+  margin-bottom: 15px;
+  
+}
+    </style>
+  </head>
+  <body>
+    <div class="back">
+      <div class="box">
+        <div class="box1"></div>
+        <div class="nav">
+          <h4 style="background-color: white">
+            <span class="nav-item">&nbsp;Home&nbsp;</span>&nbsp;&nbsp;&nbsp;
+            <span class="nav-item">&nbsp;Nature&nbsp;</span>&nbsp;&nbsp;&nbsp;
+            <span class="nav-item">&nbsp;Tour&nbsp;</span>
+          </h4>
+        </div>
+        <div class="title">
+          <h2>Book Now - Maldives</h2>
+        </div>
+        <p class="tour-description">
+          Discover the beauty of Maldives with our exclusive
+          tour package, designed for travelers seeking relaxation, adventure,
+          and luxury. Enjoy crystal-clear waters and white sandy beaches
+        </p>
+        <div class="button">
+            <a href="https://google.com" target="_blank">Read more</a>
+          </div>
+                
+      </div>
+    </div>
+  </body>
+</html>
